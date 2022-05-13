@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SampleApplication",
+            "request": "launch",
+            "mainClass": "com.example.domain.SampleApplication",
+            "projectName": "sample"
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleApplication",
+            "request": "launch",
+            "mainClass": "com.example.sample.SampleApplication",
+            "projectName": "sample"
+        },
+        {
+            "type": "java",
+            "name": "java (Attach)",
+            "request": "attach",
+            "hostName": "java",
+            "port": 5050
+        }
+    ]
+}
